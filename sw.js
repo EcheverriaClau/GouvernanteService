@@ -1,15 +1,19 @@
 // ===== SERVICE WORKER =====
 const CACHE_NAME = 'menage-hotel-v1';
+const BASE = '/GouvernanteService/';
+
 const ASSETS = [
-  './',
-  './index.html',
-  './style.css',
-  './data.js',
-  './app.js',
-  './pdf.js',
-  './manifest.json',
-  './icon-192.png',
-  './icon-512.png',
+  BASE,
+  BASE + 'index.html',
+  BASE + 'style.css',
+  BASE + 'data.js',
+  BASE + 'app.js',
+  BASE + 'distribucion.js',
+  BASE + 'horario.js',
+  BASE + 'pdf.js',
+  BASE + 'manifest.json',
+  BASE + 'icon-192.png',
+  BASE + 'icon-512.png'
 ];
 
 self.addEventListener('install', e => {
