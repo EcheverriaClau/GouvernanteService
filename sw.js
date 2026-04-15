@@ -1,8 +1,8 @@
 // ===== SERVICE WORKER =====
 const CACHE_NAME = 'menage-hotel-v1';
 const ASSETS = [
-  '/',
-  '/index.html',
+  './',
+  './index.html',
   './style.css',
   './data.js',
   './app.js',
